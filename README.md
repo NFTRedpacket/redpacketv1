@@ -11,4 +11,5 @@ Red packet is a tool to store crypto money (currently ETH) in NFT. When the NFT 
 https://github.com/NFTRedpacket/redpacketv1/blob/main/faq.md
 
 **LICENSE**
+
 https://github.com/NFTRedpacket/redpacketv1/blob/main/LICENSE
