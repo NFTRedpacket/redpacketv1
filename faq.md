@@ -5,12 +5,26 @@ Red packet is a tool to store crypto money (currently ETH) in NFT. When the NFT 
 ### Why build this?
 It's cool if I can store money in NFT, with red-packet, the NFT is not only an NFT, but also has real value. 
 
-### How to use it?
-To use RedPacket, you need to know your NFT's contract address and NFT's token id. You can find these information at OpenSea's detail card. For example, [CryptoPunk 7557](https://opensea.io/assets/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/7557), open the link and at the detail card you can see:
+### Supported chains and protocol
 
-<img src="https://i.imgur.com/v8zD20Z.png" width="380" />
+Currently, we only support Ethereum mainnet and the ERC-721 protocol, ERC-1155 is not supported. 
+
+**Note**: [CryptoPunks](https://opensea.io/collection/cryptopunks) is not a ERC-721 compatible protocol, so we dot't support CryptoPunks, too.
+
+### How to use it?
+To use RedPacket, you need to know your NFT's contract address and NFT's token id. You can find these information at OpenSea's detail card. Eg, [Bored Ape #9240](https://opensea.io/assets/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9240), open the link and at the detail card you can see:
+
+<img src="https://i.imgur.com/PVrDBQn.png" width="380" />
 
 Input the NFT contract address and token id, you can create redpacket, you can also open the redpacket with the same NFT address and token id. 
+
+You can also get the NFT address and token from the opensea url, eg: 
+
+```
+https://opensea.io/assets/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9240
+// 0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d is the NFT address
+// 9240 is the NFT token id
+```
 
 **Note**: Only the owner of the NFT can create or open an redpacket, when you transfer the NFT to others, the money stored in is also transfered. One NFT can only create one redpacket, you cannot store money to an NFT that already has a redpacket. But once the NFT's redpacket is opened, you can store money in it again.
 
