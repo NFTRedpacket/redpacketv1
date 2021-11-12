@@ -5,7 +5,7 @@ Red packet is a tool to store crypto money (currently ETH) in NFT. When the NFT 
 ### Why build this?
 It's cool if I can store money in NFT, with red-packet, the NFT is not only an NFT, but also has real value. 
 
-### Supported chains and protocol
+### Supported chains and protocol?
 
 Currently, we only support Ethereum mainnet and the ERC-721 protocol, ERC-1155 is not supported. 
 
@@ -32,9 +32,9 @@ https://opensea.io/assets/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9240
 
 YES, `fee = min(0.1% * value, 0.001eth)`, value is your stored crypto money. That means we take a fee of 0.1% (at most 0.001ETH) when you open a redpacket and withdraw the stored money. For example, when you store 0.1ETH, we take `0.1*0.001 = 0.0001ETH`, but when you stored 1ETH or more, we always take 0.001ETH.
 
+### Play in testnet?
 
-
-
+We all know that ethereum is expensive, if you want to play with Redpacket in a testnet, just open https://redpacket.app/send#dev (with a `#dev` appendix), then switch to the testnet - Ropsten. **Note that, your NFT should also minted at the same testnet.** When you want to open the redpacket, click https://redpacket.app/open#dev (dont forget to switch network), then you can open the packet. 
 
 
 
